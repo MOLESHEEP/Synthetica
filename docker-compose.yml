@@ -1,0 +1,40 @@
+services:
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: quantum-frontend
+    volumes:
+      - ./frontend:/app           # 实时代码挂载
+      - /app/node_modules          # 防止宿主机空目录覆盖容器内的依赖包
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # 确保在 Linux/阿里云 环境下热更新灵敏
+    # 虽然 Nginx 会转发，但开发时暴露 5173 方便直接调试
+    ports:
+      - "5173:5173"
+    networks:
+      - quantum-network
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-dev
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      # 核心：将宿主机的 /nginx 目录挂载到容器内的默认配置路径
+      # 如果你的主配置文件叫 nginx.conf，它应该就在宿主机的 /nginx 目录下
+      - ./webserver/nginx:/etc/nginx
+      # 可选：如果你有静态资源，也可以挂载出来
+      - ./webserver/nginx/www:/usr/share/nginx/html
+      # 可选：挂载日志目录方便在宿主机查看
+      - ./webserver/.nginx/logs:/var/log/nginx
+    environment:
+      - TZ=Asia/Shanghai
+    restart: always
+    networks:
+      - quantum-network
+
+networks:
+  quantum-network:
+    driver: bridge

@@ -1,0 +1,34 @@
+2026/04/13 21:35:32 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:33 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:33 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:34 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:35 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:37 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:40 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:35:47 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:36:00 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:36:25 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:37:17 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:38:17 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:39:17 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:40:18 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:41:18 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2026/04/13 21:42:18 [notice] 1#1: using the "epoll" event method
+2026/04/13 21:42:18 [notice] 1#1: nginx/1.21.5
+2026/04/13 21:42:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/13 21:42:18 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/13 21:42:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/13 21:42:18 [notice] 1#1: start worker processes
+2026/04/13 21:42:18 [notice] 1#1: start worker process 23
+2026/04/13 21:42:18 [notice] 1#1: start worker process 24
+2026/04/20 22:21:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/20 22:21:02 [notice] 24#24: gracefully shutting down
+2026/04/20 22:21:02 [notice] 24#24: exiting
+2026/04/20 22:21:02 [notice] 24#24: exit
+2026/04/20 22:21:02 [notice] 23#23: gracefully shutting down
+2026/04/20 22:21:02 [notice] 23#23: exiting
+2026/04/20 22:21:02 [notice] 23#23: exit
+2026/04/20 22:21:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/04/20 22:21:02 [notice] 1#1: worker process 23 exited with code 0
+2026/04/20 22:21:02 [notice] 1#1: worker process 24 exited with code 0
+2026/04/20 22:21:02 [notice] 1#1: exit

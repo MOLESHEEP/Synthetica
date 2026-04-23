@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx 工作状态确认</title>
+    <style>
+        :root {
+            --primary-color: #009966; /* Nginx 官方绿 */
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+        .status-icon {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        h1 {
+            color: #333;
+            margin: 0.5rem 0;
+            font-size: 1.5rem;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .info-box {
+            background: #f9f9f9;
+            border-left: 4px solid var(--primary-color);
+            padding: 10px;
+            margin-top: 1.5rem;
+            text-align: left;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="status-icon">✔</div>
+    <span class="badge">RUNNING</span>
+    <h1>Nginx 部署成功！</h1>
+    <p>如果你能看到这个页面，说明你的 <b>Docker 挂载</b> 和 <b>静态目录配置</b> 已经完全正常工作了。</p>
+    
+    <div class="info-box">
+        容器路径: /usr/share/nginx/html/index.html<br>
+        宿主路径: /nginx/html/index.html<br>
+        当前时间: <span id="time"></span>
+    </div>
+
+    <div class="footer">
+        Gemini Nginx Dev Template &copy; 2026
+    </div>
+</div>
+
+<script>
+    // 显示当前时间，证明页面是实时的
+    document.getElementById('time').innerText = new Date().toLocaleString();
+</script>
+
+</body>
+</html>
