@@ -45,6 +45,7 @@ export const usePetStore = defineStore('pet', () => {
   const isDialogOpen = ref(false)
   const isHistoryOpen = ref(false)
   const isTyping = ref(false)             // 打字指示器
+  const isMapVisible = ref(true)
 
   // ── 系统状态 ──────────────────────────────────────────
   const systemTime = ref(new Date())
@@ -120,6 +121,7 @@ export const usePetStore = defineStore('pet', () => {
     isDialogOpen,
     isHistoryOpen,
     isTyping,
+    isMapVisible,
     systemTime,
     petById,
     totalMessages,

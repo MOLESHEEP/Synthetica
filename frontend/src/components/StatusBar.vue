@@ -30,12 +30,20 @@
         <v-icon>mdi-history</v-icon>
         <v-tooltip activator="parent" location="bottom">对话历史</v-tooltip>
       </v-btn>
+      <v-btn
+      icon size="small" 
+      :variant="store.isMapVisible ? 'text' : 'flat'" 
+      :color="store.isMapVisible ? 'default' : 'primary'"
+      @click="store.isMapVisible = !store.isMapVisible"
+      >
+      <v-icon>mdi-map</v-icon>
+    </v-btn>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import { usePetStore } from '@/stores/petStore'
 
 const store = usePetStore()

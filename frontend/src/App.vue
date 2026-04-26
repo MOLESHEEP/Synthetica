@@ -2,15 +2,18 @@
   <v-app class="cyber-app">
     <!-- 背景粒子层 -->
     <div class="bg-particles">
-      <div v-for="i in 20" :key="i" class="particle" :style="particleStyle(i)"></div>
+      <div v-for="i in 120" :key="i" class="particle" :style="particleStyle(i)"></div>
     </div>
 
     <!-- 状态栏 -->
     <StatusBar />
 
     <!-- 主体 -->
-    <v-main class="main-content">
-      <PetArena />
+    <v-main>
+      <div v-if="store.isMapVisible" class="main-content">
+      <!-- <PetArena /> -->
+        <PixleMap />
+      </div>
     </v-main>
 
     <!-- 历史侧边栏 -->
@@ -26,8 +29,11 @@
 <script setup>
 import { reactive } from 'vue'
 import StatusBar  from '@/components/StatusBar.vue'
-import PetArena   from '@/components/PetArena.vue'
 import ChatHistory from '@/components/ChatHistory.vue'
+import PixleMap from '@/components/PixleMap.vue'
+import { usePetStore } from '@/stores/petStore'
+
+const store = usePetStore()
 
 const snack = reactive({ show: false, text: '', color: 'success' })
 
@@ -75,7 +81,7 @@ html, body {
 }
 
 .main-content {
-  padding-top: 52px !important;
+  padding-top: 15px !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
