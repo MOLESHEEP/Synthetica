@@ -4153,3 +4153,4 @@
 120.2.31.194 - - [26/Apr/2026:14:13:51 +0800] "GET /sitemap.xml HTTP/1.1" 200 1247 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" "-"
 60.255.228.87 - - [26/Apr/2026:14:13:53 +0800] "GET /config.json HTTP/1.1" 200 1247 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11" "-"
 195.178.110.204 - - [26/Apr/2026:14:53:41 +0800] "GET / HTTP/1.0" 200 2608 "-" "-" "-"
+205.210.31.18 - - [26/Apr/2026:14:57:10 +0800] "GET / HTTP/1.0" 200 2608 "-" "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity" "-"
