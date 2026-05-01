@@ -14,6 +14,28 @@ services:
       - "5173:5173"
     networks:
       - quantum-network
+  
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: quantum-backend
+    restart: unless-stopped
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # 确保在 Linux/阿里云 环境下热更新灵敏
+    expose:
+      - "8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app   # 如有静态文件则挂载
+    networks:
+      - quantum-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   nginx:
     image: nginx:latest

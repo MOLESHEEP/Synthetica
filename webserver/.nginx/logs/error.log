@@ -560,3 +560,185 @@
 2026/04/25 23:38:20 [notice] 1#1: start worker processes
 2026/04/25 23:38:20 [notice] 1#1: start worker process 24
 2026/04/25 23:38:20 [notice] 1#1: start worker process 25
+2026/04/28 13:40:22 [notice] 1#1: using the "epoll" event method
+2026/04/28 13:40:22 [notice] 1#1: nginx/1.21.5
+2026/04/28 13:40:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 13:40:22 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 13:40:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 13:40:22 [notice] 1#1: start worker processes
+2026/04/28 13:40:22 [notice] 1#1: start worker process 24
+2026/04/28 13:40:22 [notice] 1#1: start worker process 25
+2026/04/28 13:42:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 13:42:34 [notice] 25#25: gracefully shutting down
+2026/04/28 13:42:34 [notice] 25#25: exiting
+2026/04/28 13:42:34 [notice] 25#25: exit
+2026/04/28 13:42:34 [notice] 24#24: gracefully shutting down
+2026/04/28 13:42:34 [notice] 24#24: exiting
+2026/04/28 13:42:34 [notice] 24#24: exit
+2026/04/28 13:42:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 13:42:34 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 13:42:34 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 13:42:34 [notice] 1#1: exit
+2026/04/28 14:09:29 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:09:29 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:09:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:09:29 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:09:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:09:29 [notice] 1#1: start worker processes
+2026/04/28 14:09:29 [notice] 1#1: start worker process 24
+2026/04/28 14:09:29 [notice] 1#1: start worker process 25
+2026/04/28 14:11:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:11:31 [notice] 24#24: gracefully shutting down
+2026/04/28 14:11:31 [notice] 24#24: exiting
+2026/04/28 14:11:31 [notice] 24#24: exit
+2026/04/28 14:11:31 [notice] 25#25: gracefully shutting down
+2026/04/28 14:11:31 [notice] 25#25: exiting
+2026/04/28 14:11:31 [notice] 25#25: exit
+2026/04/28 14:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 14:11:31 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 14:11:31 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 14:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/04/28 14:11:31 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 14:11:31 [notice] 1#1: exit
+2026/04/28 14:15:44 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:15:44 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:15:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:15:44 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:15:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:15:44 [notice] 1#1: start worker processes
+2026/04/28 14:15:44 [notice] 1#1: start worker process 24
+2026/04/28 14:15:44 [notice] 1#1: start worker process 25
+2026/04/28 14:16:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:16:01 [notice] 25#25: gracefully shutting down
+2026/04/28 14:16:01 [notice] 25#25: exiting
+2026/04/28 14:16:01 [notice] 25#25: exit
+2026/04/28 14:16:01 [notice] 24#24: gracefully shutting down
+2026/04/28 14:16:01 [notice] 24#24: exiting
+2026/04/28 14:16:01 [notice] 24#24: exit
+2026/04/28 14:16:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 14:16:01 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 14:16:01 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 14:16:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/04/28 14:16:01 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 14:16:01 [notice] 1#1: exit
+2026/04/28 14:17:04 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:17:04 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:17:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:17:04 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:17:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:17:04 [notice] 1#1: start worker processes
+2026/04/28 14:17:04 [notice] 1#1: start worker process 24
+2026/04/28 14:17:04 [notice] 1#1: start worker process 25
+2026/04/28 14:17:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:17:16 [notice] 24#24: gracefully shutting down
+2026/04/28 14:17:16 [notice] 24#24: exiting
+2026/04/28 14:17:16 [notice] 24#24: exit
+2026/04/28 14:17:16 [notice] 25#25: gracefully shutting down
+2026/04/28 14:17:16 [notice] 25#25: exiting
+2026/04/28 14:17:16 [notice] 25#25: exit
+2026/04/28 14:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/04/28 14:17:16 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 14:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 14:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 14:17:16 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 14:17:16 [notice] 1#1: exit
+2026/04/28 14:17:41 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:17:41 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:17:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:17:41 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:17:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:17:41 [notice] 1#1: start worker processes
+2026/04/28 14:17:41 [notice] 1#1: start worker process 24
+2026/04/28 14:17:41 [notice] 1#1: start worker process 25
+2026/04/28 14:18:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:18:58 [notice] 24#24: gracefully shutting down
+2026/04/28 14:18:58 [notice] 24#24: exiting
+2026/04/28 14:18:58 [notice] 24#24: exit
+2026/04/28 14:18:58 [notice] 25#25: gracefully shutting down
+2026/04/28 14:18:58 [notice] 25#25: exiting
+2026/04/28 14:18:58 [notice] 25#25: exit
+2026/04/28 14:18:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 14:18:58 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 14:18:58 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 14:18:58 [notice] 1#1: exit
+2026/04/28 14:20:30 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:20:30 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:20:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:20:30 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:20:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:20:30 [notice] 1#1: start worker processes
+2026/04/28 14:20:30 [notice] 1#1: start worker process 24
+2026/04/28 14:20:30 [notice] 1#1: start worker process 25
+2026/04/28 14:21:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:21:49 [notice] 24#24: gracefully shutting down
+2026/04/28 14:21:49 [notice] 24#24: exiting
+2026/04/28 14:21:49 [notice] 24#24: exit
+2026/04/28 14:21:49 [notice] 25#25: gracefully shutting down
+2026/04/28 14:21:49 [notice] 25#25: exiting
+2026/04/28 14:21:49 [notice] 25#25: exit
+2026/04/28 14:21:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/28 14:21:49 [notice] 1#1: worker process 25 exited with code 0
+2026/04/28 14:21:49 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 14:21:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/04/28 14:21:49 [notice] 1#1: worker process 24 exited with code 0
+2026/04/28 14:21:49 [notice] 1#1: exit
+2026/04/28 14:22:03 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:22:03 [notice] 1#1: nginx/1.21.5
+2026/04/28 14:22:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/28 14:22:03 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/04/28 14:22:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/28 14:22:03 [notice] 1#1: start worker processes
+2026/04/28 14:22:03 [notice] 1#1: start worker process 24
+2026/04/28 14:22:03 [notice] 1#1: start worker process 25
+2026/04/28 14:22:32 [warn] 24#24: *11 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 133.237.92.86, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/04/28 14:22:49 [warn] 24#24: *112 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 34.72.176.129, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/04/28 14:23:14 [warn] 24#24: *188 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 34.123.170.104, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend/frontend/vite-hmr?token=9dRQNKDdW%5fOk"
+2026/04/28 14:23:59 [warn] 24#24: *264 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 104.197.69.115, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend/frontend/vite-hmr?token=9dRQNKDdW%5fOk"
+2026/05/01 12:42:09 [warn] 24#24: *945 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 133.237.7.85, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/05/01 12:42:27 [warn] 24#24: *984 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/00/0000000006 while reading upstream, client: 104.197.69.115, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/05/01 12:42:44 [warn] 24#24: *1056 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/00/0000000007 while reading upstream, client: 34.72.176.129, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend/frontend/vite-hmr?token=9dRQNKDdW%5fOk"
+2026/05/01 12:44:41 [warn] 24#24: *1135 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/00/0000000008 while reading upstream, client: 205.169.39.14, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend/frontend/vite-hmr?token=9dRQNKDdW%5fOk"
+2026/05/01 12:47:29 [warn] 24#24: *1194 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/00/0000000009 while reading upstream, client: 34.72.176.129, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/05/01 12:54:25 [warn] 24#24: *1273 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/01/0000000010 while reading upstream, client: 205.169.39.28, server: localhost, request: "GET /frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47 HTTP/1.1", upstream: "http://172.21.0.2:5173/frontend/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=7.4.47", host: "47.111.229.70", referrer: "http://47.111.229.70/frontend"
+2026/05/01 12:55:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/05/01 12:55:21 [notice] 25#25: gracefully shutting down
+2026/05/01 12:55:21 [notice] 25#25: exiting
+2026/05/01 12:55:21 [notice] 24#24: gracefully shutting down
+2026/05/01 12:55:21 [notice] 24#24: exiting
+2026/05/01 12:55:21 [notice] 24#24: exit
+2026/05/01 12:55:21 [notice] 25#25: exit
+2026/05/01 12:55:21 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/05/01 12:55:21 [notice] 1#1: worker process 24 exited with code 0
+2026/05/01 12:55:21 [notice] 1#1: signal 29 (SIGIO) received
+2026/05/01 12:55:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/05/01 12:55:21 [notice] 1#1: worker process 25 exited with code 0
+2026/05/01 12:55:21 [notice] 1#1: exit
+2026/05/01 12:56:42 [notice] 1#1: using the "epoll" event method
+2026/05/01 12:56:42 [notice] 1#1: nginx/1.21.5
+2026/05/01 12:56:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/05/01 12:56:42 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/05/01 12:56:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/05/01 12:56:42 [notice] 1#1: start worker processes
+2026/05/01 12:56:42 [notice] 1#1: start worker process 24
+2026/05/01 12:56:42 [notice] 1#1: start worker process 25
+2026/05/01 13:21:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/05/01 13:21:58 [notice] 24#24: gracefully shutting down
+2026/05/01 13:21:58 [notice] 25#25: gracefully shutting down
+2026/05/01 13:21:58 [notice] 24#24: exiting
+2026/05/01 13:21:58 [notice] 25#25: exiting
+2026/05/01 13:21:58 [notice] 24#24: exit
+2026/05/01 13:21:58 [notice] 25#25: exit
+2026/05/01 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/05/01 13:21:58 [notice] 1#1: worker process 24 exited with code 0
+2026/05/01 13:21:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/05/01 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/05/01 13:21:58 [notice] 1#1: worker process 25 exited with code 0
+2026/05/01 13:21:58 [notice] 1#1: exit
+2026/05/01 13:22:17 [notice] 1#1: using the "epoll" event method
+2026/05/01 13:22:17 [notice] 1#1: nginx/1.21.5
+2026/05/01 13:22:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/05/01 13:22:17 [notice] 1#1: OS: Linux 5.10.134-19.3.al8.x86_64
+2026/05/01 13:22:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/05/01 13:22:17 [notice] 1#1: start worker processes
+2026/05/01 13:22:17 [notice] 1#1: start worker process 24
+2026/05/01 13:22:17 [notice] 1#1: start worker process 25
