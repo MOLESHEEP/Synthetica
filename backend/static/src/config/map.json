@@ -1,0 +1,27 @@
+{
+  "map_info": {
+    "width": 16,
+    "height": 16,
+    "version": "1.0"
+  },
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "terrain": "grassland",
+      "feature": "forest",
+      "resource": "deer",
+      "owner": null,
+      "improvement": null
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "terrain": "plains",
+      "feature": null,
+      "resource": "wheat",
+      "owner": "player_1",
+      "improvement": "farm"
+    }
+  ]
+}
